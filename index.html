@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Dasari Ganesh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            color: #343a40;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+            font-size: 2.5rem;
+            border-bottom: 4px solid #0056b3;
+        }
+        nav {
+            background-color: #343a40;
+            padding: 1em 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        section {
+            padding: 3em 2em;
+        }
+        h2 {
+            color: #007bff;
+            border-bottom: 3px solid #007bff;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 0.5em 0;
+        }
+        footer {
+            text-align: center;
+            background-color: #343a40;
+            color: #fff;
+            padding: 1.5em 0;
+            margin-top: 2em;
+        }
+        .section-card {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 30px;
+            padding: 30px;
+        }
+        .highlight {
+            background-color: #e2f0ff;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .certifications, .skills-list {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .skills-list li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Dasari Ganesh - DevOps Engineer
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="section-card">
+    <h2>About Me</h2>
+    <p>
+        Over three years of IT experience as a DevOps Engineer, specializing in designing, implementing, and maintaining
+        DevOps processes. I aim to contribute to a dynamic and innovative organization where my skills can enhance development
+        processes and improve business operations.
+    </p>
+</section>
+
+<section id="skills" class="section-card">
+    <h2>Technical Skills</h2>
+    <div class="skills-list">
+        <ul>
+            <li><strong>CI/CD Tools:</strong> Jenkins, GitHub Actions</li>
+            <li><strong>Build Tools:</strong> Maven, NPM</li>
+            <li><strong>Container Management:</strong> AWS Kubernetes, EKS, Docker, Helm Charts</li>
+            <li><strong>Source Code Management:</strong> GitHub, GitLab</li>
+            <li><strong>Infrastructure as Code:</strong> Ansible, Terraform</li>
+            <li><strong>Security Tools:</strong> Fortify, PrismaCloud, Cortex, AWS Certificate Manager</li>
+            <li><strong>Monitoring:</strong> Prometheus, Grafana, ELK, CloudWatch</li>
+            <li><strong>Ticketing Tools:</strong> JIRA, ITSM</li>
+            <li><strong>Artifact Management:</strong> ECR</li>
+            <li><strong>Languages:</strong> Python, Groovy</li>
+            <li><strong>Database Management:</strong> MySQL, PostgreSQL, MongoDB, PgAdmin, DynamoDB, RabbitMQ</li>
+            <li><strong>Operating Systems:</strong> Windows, Linux</li>
+            <li><strong>AI Tool:</strong> ChatGPT</li>
+            <li><strong>Cloud & AWS Services:</strong> IAM, Elasticache, Route53, PV</li>
+            <li><strong>Other Technologies:</strong> Keycloak, ArgoCD</li>
+        </ul>
+    </div>
+</section>
+
+<section id="certifications" class="section-card certifications">
+    <h2>Certifications</h2>
+    <ul>
+        <li>AWS Solutions Architect Certification</li>
+        <li>AZ-900 Azure Fundamentals</li>
+    </ul>
+</section>
+
+<section id="experience" class="section-card">
+    <h2>Professional Experience</h2>
+    <h3>DevOps Engineer at Ascent Consulting Services (27/05/2024 – Present)</h3>
+    <ul>
+        <li>Working on AWS, implementing CI/CD processes using open-source tools.</li>
+        <li>Integrating Nexus3 tool for artifact management and Docker container creation.</li>
+        <li>Managing Kubernetes for microservices deployment and orchestration.</li>
+        <li>Creating dashboards using Prometheus and Grafana for monitoring.</li>
+        <li>Working with Ansible for service configuration management.</li>
+        <li>Utilizing JIRA for ticket tracking and automation with Jenkins pipelines.</li>
+    </ul>
+
+    <h3>DevOps Engineer at CGI (04/08/2021 to 03/05/2024)</h3>
+    <ul>
+        <li>Managed AWS services such as EC2, S3, RDS, IAM, and more.</li>
+        <li>Automated infrastructure provisioning with Terraform.</li>
+        <li>Created CI/CD pipelines using Jenkins and managed Docker deployments.</li>
+        <li>Developed monitoring solutions using Grafana and Prometheus.</li>
+    </ul>
+
+    <h3>Associate Engineer at Neptune Information Solutions (04/02/2021 to 03/08/2021)</h3>
+    <ul>
+        <li>Managed vulnerabilities and patching processes.</li>
+        <li>Installed and configured Apache and Tomcat on AWS EC2 instances.</li>
+        <li>Implemented ArgoCD deployments.</li>
+    </ul>
+</section>
+
+<section id="projects" class="section-card">
+    <h2>Projects</h2>
+    <h3>Project 1: BELL</h3>
+    <p>Designed efficient architecture for high availability and negligible downtime using AWS services, Kubernetes, and Docker.</p>
+    <h3>Project 2: CIBC</h3>
+    <p>Developed CI/CD pipelines, Dockerized applications, integrated monitoring tools like Grafana, and managed PostgreSQL databases.</p>
+</section>
+
+<section id="contact" class="section-card">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:dasari.ganesh@example.com">dasari.ganesh@example.com</a></p>
+    <p>Phone: <a href="tel:+917013245325">7013245325</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/dasari-ganesh-8b9608225" target="_blank">www.linkedin.com/in/dasari-ganesh-8b9608225</a></p>
+</section>
+
+<footer>
+    &copy; 2024 Dasari Ganesh - All Rights Reserved
+</footer>
+
+</body>
+</html>
